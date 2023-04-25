@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+html{
+    font-family:'Share Tech Mono', monospace;;
+}
+
+.tlo{
+    background-image: linear-gradient(rgb(9, 9, 138), black);
+}
+
+.glowny{
+    position: absolute;
+    left: 40%;
+    bottom: 10%;
+
+}
+.gorny-prawy{
+    position: absolute;
+    left: 29%;
+    bottom: 73%;
+}
+.gorny-lewy{
+    position: absolute;
+    left: 62%;
+    bottom: 73%;
+}
+.dolny-lewy{
+    position: absolute;
+    left: 29%;
+    bottom: 10%;
+}
+.grupa-prawo-dol{
+    position: absolute;
+    left: 62%;
+    bottom: 10%;
+}
+.tekst-pod-lv{
+    color: white;
+    position: absolute;
+    bottom: 4%;
+    left: 15%;
+}
+.czerwony{
+    background-color: red;
+}
+.zielony{
+    background-color: green;
+}
+.niebieski{
+    background-color: blue;
+}
+.pomaranczowy{
+    background-color: orange;
+}
+.aqua{
+    background-color: aqua;
+}
+.fioletowy{
+    background-color: purple;
+}
+.zolty{
+    background-color: yellow;
+}
+.border-aqua{
+    border: 4px solid aqua !important;
+}
+.gorny-prawy2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 4px rgb(110, 185, 255) solid;
+    border-top: 3px rgb(110, 185, 255) solid;
+    width: 195px;
+    height: 160px;
+    background-color: rgba(35, 31, 255, 0.952);
+}
+.gorny-prawy1{
+    color: white;
+    font-size: 180%;
+    width: 195px;
+    height: 32px;
+    background-color: rgba(17, 120, 255, 0.884);
+}
+table{
+    border-collapse: collapse;
+}
+
+.tetris-prosty td{
+    border: 1px rgb(158, 236, 255) solid;
+    width: 38px;
+    height: 38px;
+    background-color: aqua;
+}
+.gorny-lewy2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 4px rgb(110, 185, 255) solid;
+    border-top: 3px rgb(110, 185, 255) solid;
+    width: 195px;
+    height: 160px;
+    background-color: rgba(35, 31, 255, 0.952);
+}
+.gorny-lewy1{
+    color: white;
+    font-size: 180%;
+    width: 195px;
+    height: 32px;
+    background-color: rgba(17, 120, 255, 0.884);
+}
+table{
+    border-collapse: collapse;
+}
+
+.tetris-krzywy td{
+    border: 1px rgb(158, 236, 255) solid;
+    width: 38px;
+    height: 38px;
+    background-color: purple;
+}
+.dolny-lewy2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 4px rgb(110, 185, 255) solid;
+    border-top: 3px rgb(110, 185, 255) solid;
+    width: 195px;
+    height: 180px;
+    background-color: rgba(35, 31, 255, 0.952);
+}
+.dolny-lewy1{
+    color: white;
+    font-size: 180%;
+    width: 195px;
+    height: 32px;
+    background-color: rgba(17, 120, 255, 0.884);
+}
+.kolo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-color: #0e1730;
+}
+.kolo-w{
+    color: white;
+    font-size: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 10px solid rgb(73, 255, 255);
+    width: 70%;
+    height: 70%;
+    background-color: #0e1730;
+    border-radius: 50%;
+    pointer-events: none;
+}
+.dolny-prawy-wyzej2{
+    display: flex;
+    align-items: center;
+    border-bottom: 4px rgb(110, 185, 255) solid;
+    border-top: 3px rgb(110, 185, 255) solid;
+    width: 195px;
+    height: 80px;
+    background-color: rgba(35, 31, 255, 0.952);
+    color: white;
+    font-size: 180%;
+    margin-bottom: 7%;
+}
+.dolny-prawy-wyzej1{
+    color: white;
+    font-size: 180%;
+    width: 195px;
+    height: 32px;
+    background-color: rgba(17, 120, 255, 0.884);
+}
+.dolny-prawy-nizej2{
+    border-bottom: 4px rgb(110, 185, 255) solid;
+    border-top: 3px rgb(110, 185, 255) solid;
+    width: 195px;
+    height: 80px;
+    background-color: rgba(35, 31, 255, 0.952);
+    color: white;
+    font-size: 80%;
+}
+.best, .user, .ile-do{
+    width: 100px;
+    margin-left: 4%;
+}
+.avatar{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 5px solid orange;
+    position: absolute;
+    bottom: 5%;
+    left: 67%;
+}
+.tetris-wlasciwy{
+    border: 3px solid rgb(110, 185, 255);
+}
+.tetris-wlasciwy tr{
+    border: 1px solid rgb(153, 194, 255);
+}
+.tetris-wlasciwy td{
+    border: 1px solid rgb(153, 194, 255);
+    width: 35px;
+    height: 35px;
+}
+.tlo-tetris-wlasciwy{
+    border-top: 4px solid rgb(110, 185, 255);
+    border-bottom: 3px solid rgb(110, 185, 255);
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(35, 31, 255, 0.952);
+    width: 400px;
+    height: 780px;
+}
+.tlo-gradient{
+    background: linear-gradient(rgb(2, 2, 105), black);
+}
+@media (max-width: 800px) {
+    .gorny-prawy{
+        left: 20%;
+        bottom: 82%;
+    }
+    .gorny-lewy{
+        left: 55%;
+        bottom: 82%;
+    }
+    .glowny{
+        left: 23%;
+        bottom: 18%;
+    }
+    .dolny-lewy{
+        bottom: 0%;
+        left: 20%;
+    }
+    .grupa-prawo-dol{
+        bottom: 0%;
+        left: 55%;
+    }
+}
